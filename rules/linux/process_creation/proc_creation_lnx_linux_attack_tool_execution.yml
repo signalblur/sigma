@@ -4,35 +4,35 @@ status: experimental
 description: Detects execution of common attack tools like nmap, masscan, socat, ncat, netcat, etc.
 author: David Burkett, @signalblur
 tags:
-  - attack.t1059.004
+    - attack.t1059.004
 logsource:
-  category: process_creation
-  product: linux
+    category: process_creation
+    product: linux
 detection:
-  selection:
-    Image|endswith:
-      - /masscan
-      - /nmap
-      - /socat
-      - /ncat
-      - /netcat
-      - /hydra
-      - /john
-      - /sqlmap
-      - /aircrack-ng
-      - /wireshark
-      - /ettercap
-      - /metasploit
-      - /nikto
-      - /tcpdump
-      - /hping3
-      - /chisel
-      - /zenmap
-      - /nc
-  condition: selection
+    selection:
+      Image|endswith:
+        - /masscan
+        - /nmap
+        - /socat
+        - /ncat
+        - /netcat
+        - /hydra
+        - /john
+        - /sqlmap
+        - /aircrack-ng
+        - /wireshark
+        - /ettercap
+        - /metasploit
+        - /nikto
+        - /tcpdump
+        - /hping3
+        - /chisel
+        - /zenmap
+        - /nc
+    condition: selection
 fields:
-  - Image
-  - CommandLine
+    - Image
+    - CommandLine
 falsepositives:
-  - Legitimate usage of the listed tools for administrative or testing purposes.
+    - Legitimate usage of the listed tools for administrative or testing purposes.
 level: high
