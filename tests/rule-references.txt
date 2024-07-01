@@ -3660,3 +3660,17 @@ https://github.com/0xsyr0/Awesome-Cybersecurity-Handbooks/blob/7b8935fe4c82cb64d
 https://doublepulsar.com/follina-a-microsoft-office-code-execution-vulnerability-1a47fce5629e
 https://www.virustotal.com/gui/file/1c547a064494a35d6b5e6b459de183ab2720a22725e082bed6f6629211f7abc1/behavior
 https://web.archive.org/web/20160928212230/https://www.adaptforward.com/2016/09/using-netshell-to-execute-evil-dlls-and-persist-on-a-host/
+https://github.com/RhinoSecurityLabs/CVEs/blob/15cf4d86c83daa57b59eaa2542a0ed47ad3dc32d/CVE-2024-1212/CVE-2024-1212.py
+https://cloud.google.com/access-context-manager/docs/audit-logging
+https://ngrok.com/blog-post/new-ngrok-domains
+https://www.cobaltstrike.com/blog/why-is-notepad-exe-connecting-to-the-internet
+https://www.trendmicro.com/content/dam/trendmicro/global/en/research/24/b/lockbit-attempts-to-stay-afloat-with-a-new-version/technical-appendix-lockbit-ng-dev-analysis.pdf
+https://lolbas-project.github.io/lolbas/Binaries/Tar/
+https://github.com/nasbench/EVTX-ETW-Resources/blob/f1b010ce0ee1b71e3024180de1a3e67f99701fe4/ETWProvidersManifests/Windows11/22H2/W11_22H2_Pro_20221220_22621.963/WEPExplorer/Microsoft-Windows-MsiServer.xml
+https://github.com/grayhatkiller/SharpExShell
+https://github.com/nasbench/Misc-Research/blob/b20da2336de0f342d31ef4794959d28c8d3ba5ba/ETW/Microsoft-Windows-Kernel-General.md
+https://blog.appsecco.com/kubernetes-namespace-breakout-using-insecure-host-path-volume-part-1-b382f2a6e216
+https://tria.ge/231212-r1bpgaefar/behavioral2
+https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.management/stop-service?view=powershell-7.4
+https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1490/T1490.md#atomic-test-12---disable-time-machine
+https://bazaar.abuse.ch/browse/signature/RaspberryRobin/
